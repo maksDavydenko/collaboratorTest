@@ -1,0 +1,59 @@
+$checkbox-size: 20px
+$checkbox-color: #007bff
+    
+.filter 
+    max-width: 232px
+    margin-right: 20px
+    border-radius: 5px
+    background-color: #fff
+    border: 1px solid #DFE5EC
+    font-size: 12px
+
+    &__header
+        padding: 20px
+
+    &__item 
+        padding: 15px
+
+        &:hover
+            background-color: #F1FCFF
+
+.filter__checkbox
+  display: none
+
+.filter__checkboxLabel
+  display: block
+  position: relative
+  padding-left: $checkbox-size + 10px
+  cursor: pointer
+
+  &::before
+    content: ""
+    display: inline-block
+    width: $checkbox-size
+    height: $checkbox-size
+    background-color: #fff
+    border: 2px solid #aaa
+    border-radius: 3px
+    position: absolute
+    left: 0
+    top: 50%
+    transform: translateY(-50%)
+
+  &::after
+    content: "\2713"
+    font-size: 12px
+    color: #fff
+    position: absolute
+    left: 4px
+    top: 50%
+    transform: translateY(-50%)
+    opacity: 0
+
+
+.filter__checkbox:checked + .filter__checkboxLabel
+  &::before
+    background-color: $checkbox-color
+  
+  &::after
+    opacity: 1

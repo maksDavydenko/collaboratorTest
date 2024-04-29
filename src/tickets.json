@@ -1,0 +1,26 @@
+[
+    {
+        "price": 13300,
+        "currency" : "$",
+        "firstFryTime" : "10:45 – 08:00",
+        "seconfFryTime" : "11:20 – 00:50",
+        "firstFryTransit" : "34г 15хв",
+        "seconfFryTransit" : "34г 15хв",
+        "transfersNumber": 3,
+        "transfersLabel": "3 пересадки",
+        "transfersList": "[HKG, JNB, JNB]",
+        "fullTimeFry": 3333333
+    },
+    {
+        "price": 13300,
+        "currency" : "$",
+        "firstFryTime" : "10:45 – 08:00",
+        "seconfFryTime" : "11:20 – 00:50",
+        "firstFryTransit" : "34г 15хв",
+        "seconfFryTransit" : "34г 15хв",
+        "transfersNumber": 3,
+        "transfersLabel": "3 пересадки",
+        "transfersList": "[HKG, JNB, JNB]",
+        "fullTimeFry": 3333333
+    }
+]

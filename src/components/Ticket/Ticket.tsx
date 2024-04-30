@@ -1,12 +1,21 @@
 
 import Logo from '../../media/a4e logo.png';
-import './contentItem.sass';
-export const ContentItem = () => {
+import './Ticket.sass';
 
+export const Ticket = ({ ticket }: { ticket: any }) => {
+     const { 
+          priceLabel,
+          firstFryTime,
+          secondFryTime,
+          firstFryTransit,
+          secondFlyTransit,
+          transfersLabel,
+          transfersList
+      } = ticket;
     return (
         <div className="content-item">
             <div className="content-item__header">
-                <div className="price">13 300 $</div>
+                <div className="price">{priceLabel}</div>
                 <img src={Logo} alt='ailine company'></img>
             </div>
             <div className='information-content'>
@@ -15,7 +24,7 @@ export const ContentItem = () => {
                     LHR – DXB
                </div>
                <div className="info__content">
-                    10:45 – 08:00
+                    {firstFryTime}
                </div>
             </div>
             <div className="info">
@@ -23,15 +32,15 @@ export const ContentItem = () => {
                     В ДОРОЗІ
                </div>
                <div className="info__content">
-                    10:45 – 08:00
+                    {firstFryTransit}
                </div>
             </div>
             <div className="info">
                <div className="info__header">
-                 1 пересадка
+                    {transfersLabel}               
                </div>
                <div className="info__content">
-                    10:45 – 08:00
+                    {transfersList}     
                </div>
             </div>
             <div className="info">
@@ -39,7 +48,7 @@ export const ContentItem = () => {
                 DXB – LHR
                </div>
                <div className="info__content">
-                    10:45 – 08:00
+               {secondFryTime}
                </div>
             </div>
             <div className="info">
@@ -47,15 +56,15 @@ export const ContentItem = () => {
                В ДОРОЗІ
                </div>
                <div className="info__content">
-                    10:45 – 08:00
+               {secondFlyTransit}
                </div>
             </div>
             <div className="info">
                <div className="info__header">
-                2 пересадки
+                    {transfersLabel}    
                </div>
                <div className="info__content">
-                    10:45 – 08:00
+                   {transfersList}
                </div>
             </div>
             </div>

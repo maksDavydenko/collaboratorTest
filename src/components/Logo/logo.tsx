@@ -1,5 +1,5 @@
 import LogoImg from '../../media/Logo.svg';
-import './logo.sass';
+import './Logo.sass';
 
 export const Logo = () => {
   return (

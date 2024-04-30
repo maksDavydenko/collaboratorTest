@@ -1,26 +1,25 @@
 import './App.sass';
-import { Logo } from './components/Logo/logo';
-import { Filter } from './components/Filter/filter';
-import { Sort } from './components/Sort/sort';
-import { Content } from './components/Content/content';
+import { Logo } from './components/Logo/Logo';
+import { Filter } from './components/Filter/Filter';
+import { Sort } from './components/Sort/Sort';
+import { TicketsList } from './components/TicketsList/TicketsList';
 import { Provider } from 'react-redux';
-import { store } from './store';
+import store from './redux/store';
 
 function App() {
 
   return (
     <Provider store={store}>
     <>
-       <Logo/>
+      <Logo/>
       <div className='content-block'>
         <Filter/>
         <div>
           <Sort/>
-          <Content/>
+          <TicketsList/>
         </div>
-      </div>
-      
-</>
+      </div>  
+    </>
       </Provider>
   );
 }

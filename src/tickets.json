@@ -1,26 +1,62 @@
 [
     {
-        "price": 13300,
-        "currency" : "$",
+        "price": 14600,
+        "priceLabel" : "14 400 $",
         "firstFryTime" : "10:45 – 08:00",
-        "seconfFryTime" : "11:20 – 00:50",
+        "secondFryTime" : "11:20 – 00:50",
         "firstFryTransit" : "34г 15хв",
-        "seconfFryTransit" : "34г 15хв",
-        "transfersNumber": 3,
-        "transfersLabel": "3 пересадки",
-        "transfersList": "[HKG, JNB, JNB]",
-        "fullTimeFry": 3333333
+        "secondFlyTransit" : "34г 15хв",
+        "transfersNumber": 2,
+        "transfersLabel": "2 пересадки",
+        "transfersList": "HKG, JNB",
+        "fullTimeFry": 3600
     },
     {
-        "price": 13300,
-        "currency" : "$",
+        "price": 13400,
+        "priceLabel" : "13 400 $",
         "firstFryTime" : "10:45 – 08:00",
-        "seconfFryTime" : "11:20 – 00:50",
-        "firstFryTransit" : "34г 15хв",
-        "seconfFryTransit" : "34г 15хв",
-        "transfersNumber": 3,
-        "transfersLabel": "3 пересадки",
-        "transfersList": "[HKG, JNB, JNB]",
-        "fullTimeFry": 3333333
+        "secondFryTime" : "11:20 – 00:50",
+        "firstFryTransit" : "14г 15хв",
+        "secondFlyTransit" : "14г 15хв",
+        "transfersNumber": 1,
+        "transfersLabel": "1 пересадкa",
+        "transfersList": "HKG",
+        "fullTimeFry": 7200
+    },
+    {
+        "price": 12900,
+        "priceLabel" : "12 900 $",
+        "firstFryTime" : "10:45 – 08:00",
+        "secondFlyTransit" : "34г 15хв",
+        "secondFryTime" : "11:20 – 00:50",
+        "firstFryTransit" : "22г 15хв",
+        "transfersNumber": 2,
+        "transfersLabel": "2 пересадки",
+        "transfersList": "HKG, JNB",
+        "fullTimeFry": 12000
+    },
+    {
+        "price": 13200,
+        "priceLabel" : "13 200 $",
+        "firstFryTime" : "10:45 – 08:00",
+        "secondFlyTransit" : "34г 15хв",
+        "secondFryTime" : "11:20 – 00:50",
+        "firstFryTransit" : "4г 15хв",
+        "transfersNumber": 0,
+        "transfersLabel": "Без пересадок",
+        "transfersList": "",
+        "fullTimeFry": 20000
+    },
+    {
+        "price": 10400,
+        "priceLabel" : "10 400 $",
+        "firstFryTime" : "10:45 – 08:00",
+        "secondFlyTransit" : "34г 15хв",
+        "secondFryTime" : "11:20 – 00:50",
+        "firstFryTransit" : "9г 15хв",
+        "transfersNumber": 0,
+        "transfersLabel": "Без пересадок",
+        "transfersList": "",
+        "fullTimeFry": 33833
     }
 ]

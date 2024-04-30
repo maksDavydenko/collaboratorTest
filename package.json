@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
-    "deploy-gh-pages": "1.0.0"
+    "deploy-gh-pages": "1.0.0",
+    "gh-pages": "^6.1.1"
   }
 }
